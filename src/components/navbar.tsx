@@ -55,8 +55,8 @@ const Navbar = () => {
                     minWidth: "800px",
                 }}
                 className={cn(
-                    "hidden lg:flex bg-transparent self-start items-center justify-between py-4 rounded-full relative z-[50] mx-auto w-full backdrop-blur",
-                    visible && "bg-background/60 py-2 border border-t-foreground/20 border-b-foreground/10 border-x-foreground/15 w-full"
+                    "hidden lg:flex bg-transparent self-start items-center justify-between py-4 rounded-full relative z-[50] mx-auto w-full backdrop-blur-md",
+                    visible && "bg-background/60 backdrop-blur-md py-2 border border-t-foreground/20 border-b-foreground/10 border-x-foreground/15 w-full"
                 )}
             >
                 <Wrapper className="flex items-center justify-between lg:px-4">
