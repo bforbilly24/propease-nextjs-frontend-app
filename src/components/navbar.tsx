@@ -124,7 +124,7 @@ const Navbar = () => {
                 }}
                 className={cn(
                     "flex relative flex-col lg:hidden w-full justify-between items-center mx-auto py-4 z-50",
-                    visible && "bg-neutral-950 w-11/12 border",
+                    visible && "bg-neutral-950/60 backdrop-blur-sm w-11/12 border",
                     open && "border-transparent"
                 )}
             >
